@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(img/imgmain.jpg);
+    background-size: cover;
+    /* Faz a imagem cobrir todo o fundo */
+    background-repeat: no-repeat;
+    /* Evita a repetição da imagem */
+    background-position: center;
+    scroll-behavior: smooth;
+
+}
+
+.header {
+    text-align: center;
+    padding: 350px;
+    font-family: 'League Gothic';
+    position: static
+}
+
+.textobranco {
+    color: rgb(255, 255, 255);
+    opacity: 0.80;
+    font-size: 105px;
+    font-weight: 5px;
+
+}
+
+.textoverde {
+    color: rgb(80, 247, 3);
+    opacity: 0.80;
+    font-size: 105px;
+}
+
+.textobranco,
+.textoverde {
+    text-shadow: 25px 25px 25px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+
+p {
+    color: white;
+    font-size: 25px;
+    position: relative;
+    top: 70px;
+    text-shadow: 25px 25px 25px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+
+
+
+}
+
+.content-logo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 78px;
+}
+
+.logo {
+    height: 95px;
+    border-radius: 100%;
+    position: absolute;
+    top: 65%;
+
+}
+
+.nome-logo {
+    color: white;
+    font-size: 60px;
+    margin-left: 120px;
+    position: absolute;
+    top: 65%;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+.navegacao a {
+    color: white;
+    font-size: 35px;
+    margin-right: 50px;
+}
+
+.botao {
+    position: relative;
+    top: 90px;
+    left: 550px;
+    background-color: white;
+    width: 78px;
+    border-radius: 10px;
+}
+
+.botao:hover {
+    background-color: rgb(80, 247, 3);
+}
+
+.content,
+.footer {
+    padding: 20px;
+    margin: 10px 0;
+    background-color: rgba(253, 238, 238, 0.8);
+    border-radius: 10px;
+    min-height: 85vh;
+}
+
+.footer {
+    min-height: 70vh;
+}
+
+
+
+#sobre {
+    background: rgb(0, 0, 0);
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+
+}
+
+#sobre h2 {
+    text-align: center;
+    font-family: 'League Gothic';
+    font-size: 45px;
+    text-decoration: uppercase;
+
+}
+
+#sobre p {
+    color: black;
+    position: relative;
+    font-size: 25px;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 400px;
+}
+
+
+
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.carousel-inner {
+    height: 650px;
+    /* Define a altura do carrossel */
+}
+
+.carousel-inner img {
+    height: 100%;
+    /* Faz com que as imagens preencham a altura do carrossel */
+    width: 100%;
+    /* Faz com que as imagens preencham a largura do carrossel */
+    object-fit: contain;
+    margin: 0;
+    padding: 20px;
+    max-width: 800px;
+    max-height: 700px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    opacity: 0.80;
+    padding: 20px;
+
+}
+
+.product-reviews {
+    background-color: rgba(253, 238, 238, 0.8);
+    padding: 50px 0;
+    text-align: center;
+    height: 100%;
+}
+
+.product-reviews h2 {
+    font-size: 45px;
+    margin-bottom: 30px;
+    font-family: 'League Gothic', sans-serif;
+    color: #333;
+}
+
+.review-card {
+    /* background: #fff; */
+    background-color: rgb(34, 185, 47);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 60px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    opacity: 0.9;
+    margin-top: 20px;
+    margin: 25px;
+
+}
+
+
+
+.review-card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.review-card h4 {
+    font-size: 20px;
+    color: #080808;
+    margin-bottom: 10px;
+
+}
+
+.review-card .rating {
+    color: #FFD700;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.review-card p {
+    font-size: 16px;
+    color: #000000;
+}
+
+
+.contact-form {
+    background: rgb(34, 185, 47);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+    margin: 80px auto 0;
+    margin-top: 80px;
+    border-radius: 12px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s;
+}
+
+.contact-form:hover {
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
+}
+
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'League Gothic';
+    font-size: 45px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+
+}
+
+.form-control {
+
+    height: 50px;
+    /* Altura simplificada */
+    padding: 10px 20px;
+    /* Padding simplificado */
+    font-size: 18px;
+    /* Tamanho da fonte simplificado */
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    transition: border-color 0.3s, box-shadow 0.3s, transform 0.2s;
+}
+
+.form-control:focus {
+    border-color: #000000;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    transform: scale(1.02);
+}
+
+label {
+    font-size: 1.1rem;
+    color: #fff;
+    font-weight: 500;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.25rem;
+    border-radius: 0.5rem;
+    background: rgb(15, 15, 15);
+    border: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+over {
+    background: rgb(39, 207, 89);
+    transform: translateY(-2px);
+}
+
+.btn:active {
+    background: rgb(32, 230, 75);
+    transform: translateY(0);
+}
+
+
+.header {
+    text-align: center;
+    font-family: 'League Gothic';
+    position: static;
+    padding: 100px; /* Ajuste o valor conforme necessário para telas maiores */
+}
+
+@media (min-width: 768px) {
+    .header {
+        padding: 200px; /* Ajuste o valor conforme necessário para telas médias */
+    }
+}
+
+@media (min-width: 992px) {
+    .header {
+        padding: 250px; /* Ajuste o valor conforme necessário para telas grandes */
+    }
+}
+
+@media (min-width: 1200px) {
+    .header {
+        padding: 300px; /* Ajuste o valor conforme necessário para telas extra grandes */
+    }
+}
+
+.textobranco {
+    color: rgb(255, 255, 255);
+    opacity: 0.80;
+    font-size: 105px;
+}
+
+.textoverde {
+    color: rgb(80, 247, 3);
+    opacity: 0.80;
+    font-size: 105px;
+}
+
+.textobranco,
+.textoverde {
+    text-shadow: 25px 25px 25px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+p {
+    color: white;
+    font-size: 25px;
+    position: relative;
+    top: 70px;
+    text-shadow: 25px 25px 25px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.content-logo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 78px;
+}
+
+.logo {
+    height: 95px;
+    border-radius: 100%;
+    position: absolute;
+    top: 65%;
+}
+
+.nome-logo {
+    color: white;
+    font-size: 60px;
+    margin-left: 120px;
+    position: absolute;
+    top: 65%;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Minha página | Danilo</title>
+</head>
+
+<body>
+
+  <div class="navegacao">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#home">Home <span class="sr-only">(Página atual)</span></a>
+          <a class="nav-item nav-link" href="#sobre">Sobre</a>
+          <a class="nav-item nav-link" href="#avaliacoes">Avaliações</a>
+          <a class="nav-item nav-link " href="#contato">Contato</a>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+
+  <div id="home" class="header container-fluid">
+    <div class="container">
+      <h1><span class="textobranco">ADOTE UMA GARRAFA</span> <span class="textoverde"> & SALVE O PLANETA </span></h1>
+      <P>Venha conhecer nossos produtos exclusivos e sustentáveis, pensados não só para você e para mim, mas para todos
+        nós. Com um excelente custo-benefício, você apoia a causa mais importante do século: a saúde do nosso lar, o
+        planeta Terra.</P>
+
+      <div class="content-logo">
+        <img src="img/logo.png" alt="" class="logo">
+        <span class="nome-logo">ECOBOTTLE</span>
+      </div>
+
+      <div class="botao">
+        <button type="button" class="btn btn-lg btn-outline-success">Comprar</button>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="sobre" class="content container-fluid">
+    <div class="container">
+      <h2>NOSSO PRODUTO</h2>
+    </div>
+    <div class="container carousel-container">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="img/garrafa1.jpg" alt="Primeiro Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/garrafa2.jpg" alt="Segundo Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/garrafa3.jpg" alt="Terceiro Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/garrafa4.jpg" alt="Quarto Slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div id="avaliacoes">
+    <div class="container">
+      <!-- <h2>AVALIAÇÕES DO PRODUTO</h2> -->
+      <div class="row">
+        <div class="col-md-4">
+          <div class="review-card">
+            <img src="img/mario.jpeg" alt="Usuário 1">
+            <h4>Usuário1</h4>
+            <div class="rating">★★★★☆</div>
+            <p>A Ecobottle é incrível! Levei-a para minha caminhada e fiquei impressionado com a qualidade do material e
+              como mantém minha água gelada por horas. Além disso, me sinto bem sabendo que estou fazendo minha parte
+              pelo meio ambiente.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="review-card">
+            <img src="img/luigi.jpeg" alt="Usuário 2">
+            <h4>Usuário2</h4>
+            <div class="rating">★★★★★</div>
+            <p>Estou totalmente apaixonado pela minha Ecobottle! Além de ser linda, é super prática para levar para o
+              trabalho. Já recebi vários elogios e adoro saber que estou contribuindo para reduzir o uso de plástico. A
+              tampa à prova de vazamentos é um bônus incrível.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="review-card">
+            <img src="img/yoshi.jpeg" alt="Usuário 3">
+            <h4> Usuário3</h4>
+            <div class="rating">★★★★★</div>
+            <p> Comprei a Ecobottle recentemente e não consigo mais viver sem ela! É tão conveniente para usar durante
+              meus treinos na academia. Além disso, a qualidade é excepcional e me sinto bem usando um produto
+              sustentável. SUPER RECOMENDO!!!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="contato" class="footer container-fluid">
+    <div class="container-contato">
+        <div class="contact-form">
+          <h2>Entrar em contato</h2>
+          <form>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Nome">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Seu email">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Mensagem</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+        </div>
+
+      
+
+
+
+
+
+
+    </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaF2x5GkFnUIMqgij9K4/nG09Pz4Py5t8v9" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
