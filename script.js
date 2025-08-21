@@ -1,7 +1,7 @@
-function smoothScrollEffect (){
+function initSmoothScrollEffect (){
     
     const linksInternos = document.querySelectorAll('a[href^="#"');
-    
+
     if(linksInternos.length) {
         function smoothScroll(event) {
             event.preventDefault();
@@ -21,6 +21,26 @@ function smoothScrollEffect (){
     
 }
 
-smoothScrollEffect();
+function initScrollElementVisibleEffect() {
+    function scrollElementVisible() {
+        const sections = document.querySelectorAll('.js-animation-scroll')
+    
+        sections.forEach((section) => {
+    
+            const sectionScroll = section.getBoundingClientRect().top -700;
+            
+            if(sectionScroll < 0) {
+                section.classList.add('active')
+            } else {
+                section.classList.remove('active')
+            }   
+        })
+    }
 
+    window.addEventListener('scroll' , scrollElementVisible)
+    
+}
+
+initSmoothScrollEffect();
+initScrollElementVisibleEffect()
 

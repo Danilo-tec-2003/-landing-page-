@@ -381,6 +381,16 @@ p {
     font-weight: bold;
 }
 
+.js-animation-scroll {
+    opacity: 0;
+    transition: all 0.5s ease-out;
+}
+
+.js-animation-scroll.active {
+    opacity: 1;
+}
+
+
 
 
 
